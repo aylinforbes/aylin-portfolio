@@ -1,0 +1,106 @@
+html, body{
+    height:100%;
+    margin:0;
+}
+body{
+    background-color: lightgray
+}
+            /*navigation bar*/
+nav li{
+    display:inline;
+    margin:0px;
+    color:red;
+}
+nav ul{
+    background-color:rgb(59, 98, 142);
+    text-align:center;
+    margin:0;
+    list-style-type:none;
+    width:100%;
+    padding:5px;
+}
+nav{
+    display:inline;
+    color:gray;
+}
+nav a{
+    color:red;
+    text-decoration:none;
+}
+nav a:hover {
+    background-color:darkgray;
+    color:red;
+    box-shadow: 0 0 10px rgb(3, 73, 49);
+
+}
+                                       /*hero image*/
+.hero-image{
+        background:url("../img/chams1070x424.jpg");
+        background-image:cross-fade;
+        height:40%;
+        margin-top:-2%;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        position:relative;
+        text-align:center;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+  }
+   
+.header{
+  text-align:center;
+  color:rgb(157, 86, 160);
+  text-shadow: 2px 2px yellow;
+  background-color: gray;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+                              /*bottom links*/
+a:link{
+    text-decoration:none;
+    padding:50px;
+    margin:8%;
+}
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+footer{
+    background-color:red;
+    height:5;
+    margin:5px;
+    padding-bottom:8px;
+}
+footer div{
+    text-align:center;
+    color:white;
+}

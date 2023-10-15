@@ -1,0 +1,98 @@
+html, body{
+    height:100%;
+    margin:0;
+}
+body{
+    background-color:gray;
+}
+                     /*navigation bar*/
+nav li{
+    display:inline;
+    margin:20px;
+    color:red;
+}
+nav ul{
+    background-color:black;
+    text-align:center;
+    margin:0;
+    list-style-type:none;
+    width:100%;
+    padding:5px;
+}
+nav{
+    display:inline;
+    color:white;
+}
+nav a{
+    color:red;
+    text-decoration:none;
+}
+nav a:hover {
+    background-color:darkgrey;
+    color:red;
+    box-shadow:0 0 20px rgb(3, 73, 49);
+}
+
+                                      /*my picture*/
+.profile-image{
+    background-position:center;
+}
+                                         /*form*/
+h2{
+    text-shadow: 2px 2px red;
+    text-align:center;
+}
+input[type=text] {
+    background-color: lightgray;
+    color:lightslategray;
+  }
+  input[type=tel] {
+    background-color: lightgray;
+    color:lightslategray;
+  }
+  input[type=email] {
+    background-color: lightgray;
+    color:lightslategray;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color:lightgrey;
+    color:lightslategray;
+    resize: none;
+  }
+div{
+    
+    text-shadow: 2px 2px red;
+    text-align:center;
+}
+                                /*bottom links*/
+a:link{
+    text-decoration:none;
+    padding:50px;
+}
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+                              /*footer*/
+footer{
+    background-color:red;
+    height:5;
+    margin:5px;
+    padding-bottom:8px;
+}
+footer div{
+    text-align:center;
+    color:white;
+}

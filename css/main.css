@@ -1,0 +1,110 @@
+html, body{
+    height:100%;
+    margin:0%;
+}
+body{
+    background-color:gray;
+}
+                             /*navigation bar*/
+nav li{
+    display:inline;
+    margin:45px;
+}
+nav ul{
+    background-color:black;
+    text-align:end;
+    margin:0;
+    list-style-type:none;
+    width:100%;
+    padding:5px;
+}
+nav{
+    display:inline;
+    color:white;
+}
+nav a{
+    color:red;
+    text-decoration:none;
+}
+nav a:hover {
+    background-color:darkgrey;
+    color:red;
+    box-shadow:0 0 20px rgb(3, 73, 49);
+}
+                                       /*hero image*/
+.hero-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5 )),url("bluelagoon1024x414.jpg");
+    width:100%;
+    height:40%;
+    margin-top:0%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+                                  /*my image*/
+.home{
+    background:url('./img/af_281x298.jpg') no-repeat;
+    width:80%;
+    height:100%;
+    margin:10%;
+    background-size: 100%;
+    position:relative;
+}
+                            /*introduction*/
+.home-content{
+    max-width: 300px; 
+    color:skyblue;
+}
+.home-content h3{
+    font-size:30px;
+    font-weight:600;
+}
+.home-content h1{
+    font-size:50px;
+    font-weight:700;
+    margin:10px;
+    text-align:left;
+}
+.home-content p{
+    font-size:20px;
+}
+                          /*bottom links*/
+a:link{
+    text-decoration:none;
+    padding:20px;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+                                /*footer*/
+footer{
+    background-color:red;
+    height:5;
+    margin:5px;
+    padding-bottom:5px;
+}
+footer div{
+    text-align:center;
+    color:white;
+}
+                               /*copy*/
+
+
